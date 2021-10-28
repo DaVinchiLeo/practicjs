@@ -28,6 +28,7 @@ let number_2 = Number(prompt(`число 2`));
 let result=number_1+number_2;
 alert(`результат операции= ${result}!`);*/
 
+/*
 let number_1 = Number(prompt(`Число 1`));
 let number_2 = Number(prompt(`число 2`));
 let result;
@@ -49,4 +50,12 @@ switch (operation) {
   default:
     alert("математика не случилась");
     break;
+}
+*/
+let age = prompt(`Сколько тебе лет?`);
+if (age > 18) {
+  alert("))");
+} 
+else {
+  alert("((");
 }
