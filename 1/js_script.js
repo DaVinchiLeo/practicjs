@@ -75,3 +75,5 @@ for(i=1; i< array.length; i++)
   array2.push[array[i]];
   }
   alert( array2);*/
+
+  /*новый комент2*/
