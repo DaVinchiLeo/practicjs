@@ -52,10 +52,26 @@ switch (operation) {
     break;
 }
 */
+
+/*
 let age = prompt(`Сколько тебе лет?`);
 if (age > 18) {
   alert("))");
 } 
 else {
   alert("((");
-}
+}*/
+let array=[1,2,3,4,5,6,7,8,9,10];
+let array2=[]
+
+for(i=1; i< array.length; i++) 
+    {
+        if ((array[i] % 2)===0)  
+        {alert(array[i]);}
+    }
+    
+ /*тут нужна запись в новый масив
+  for(i=1;i<array2.length;i++){
+  array2.push[array[i]];
+  }
+  alert( array2);*/
